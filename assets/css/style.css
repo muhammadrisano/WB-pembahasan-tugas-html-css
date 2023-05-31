@@ -1,0 +1,172 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper-flex {
+  display: flex;
+}
+.items {
+  width: 50%;
+}
+.hero-title {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #2e266f;
+}
+.wrapper-search {
+  position: relative;
+  width: 440px;
+  background-color: lightgoldenrodyellow;
+}
+.wrapper-search input {
+  background-color: #efefef;
+  border-radius: 15px;
+  border-width: 0;
+  padding: 20px 0 20px 54px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+.ic-search {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.thumnail-recipe {
+  width: 500px;
+  height: 500px;
+}
+.thumnail-recipe img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-y-center {
+  flex-direction: column;
+  justify-content: center;
+}
+.title-section {
+  color: #3f3a3a;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.title-section::before {
+  content: "";
+  background-color: #efc81a;
+  width: 18px;
+  height: 120px;
+  display: inline-block;
+  margin-right: 10px;
+  transform: translateY(40px);
+}
+.thumnail-popular {
+  width: 530px;
+  height: 530px;
+}
+.thumnail-popular img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.recipe-content {
+  width: 420px;
+}
+.sub-title {
+  color: #3f3a3a;
+  font-size: 42px;
+  font-weight: 500;
+  list-style: 56px;
+}
+.content {
+  font-size: 20px;
+  color: #3f3a3a;
+  line-height: 28px;
+}
+.btn-primary {
+  background-color: #efc81a;
+  border-width: 0;
+  padding: 16px 36px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+.item-yx-ceter {
+  justify-content: center;
+  align-items: center;
+}
+.container-items{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.item-popular{
+    width: 360px;
+    height: 360px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+  
+}
+.item-popular img{
+    width: 100%;
+    height: 100%;
+}
+.item-popular h6{
+    position: absolute;
+    bottom: 30px;
+    margin: 0;
+    left: 30px;
+    font-size: 26px;
+}
+#popular, #new-recipe, #popular-recipe{
+    margin-top: 50px;
+}
+
+/* navbar */
+.navbar{
+    margin-bottom: 30px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #2E266F;
+}
+.navbar ul li a:hover{
+    background-color: lightskyblue;
+}
+.space-between{
+    justify-content: space-between;
+}
+.icon-login{
+    width: 48px;
+    height: 48px;
+    background-color: lightcyan;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.icon-login img{
+    width: 26px;
+}
+.text-login{
+    text-decoration: none;
+    color: #2E266F;
+}
+
+.wrapper-login{
+    align-items: center;
+    margin-right: 20px;
+}
